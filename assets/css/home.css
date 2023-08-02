@@ -1,31 +1,81 @@
 .menu{
+    position: sticky;
     display: flex;
     justify-content: space-between;
-
+    /* width: 10%; */
+}
+.menu .right-menu ul li{
+    display: inline-block;
+    text-decoration-line: none;
+    margin: 2px 5px;
+}
+.menu .right-menu ul li a{
+    text-decoration: none;
 }
 .head{
-    min-height: 450px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
     width: 100%;
     background-image: url('../images/head.jpg');
-    background-size: cover;
-    position: relative;
+    background-size:100% 100%;
+    opacity:0.9;
+    /* position: relative; */
 }
 .head .text{
-    background: linear-gradient(217deg, rgba(49, 45, 45, 0.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(139, 153, 139, 0.8), rgba(0,255,0,0) 70.71%);
-    width: 300px;
-    height: 100px;
-    padding: 100px;
+    background: linear-gradient(217deg, rgba(49, 45, 45, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(139, 153, 139, 0.8), rgba(0,255,0,0) 70.71%);
+    inline-size: 30%;
+    block-size: 16%;
+    text-align: center;
+    /* padding: 100px;
     margin-top: 50px;
     margin-left: 450px;
     position: absolute;
-    text-align: center;
-    color: white; 
+    color: white;  */
 }
 
+.head .text span{
+    margin-bottom: 10px;
+}
 .head .text span{
     background-color: blue;
     border-radius: 3px;
     padding: 10px 25px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
+/***
+*
+*     SERVICES PART
+*
+************************/
+.services{
+    position: relative;
+    min-height: 50vh;
+}
+.services h3{
+    text-align: center;
+    margin-top: 52px;
+}
+.services .content{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.services .content .items{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 30px;
+    position: relative;
+    background-color: bisque;
+    border-radius: 5px;
+    width: 25%;
+    height: 100px;
+}
+.services .content .items img{
+    display: center;
+}
