@@ -16,9 +16,9 @@
     <div class="right-menu">
         <ul>
             <li><a href="home.html">HOME</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li>CONTACT</li>
-            <li>ABOUT</li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
         </ul>
     </div>
    </nav>
@@ -49,6 +49,38 @@
             </div>
             <div></div>
         </div>
+   </div>
+   <!-- contact -->
+   <div class="container" id="contact">
+    <div style="text-align:center">
+        <h2>CONTACT US</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="assets/images/contact.avif" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div> 
+   <div class="footer">
+        <p>&copy; 2023, B#P</p>
    </div>
 </body>
 </html>

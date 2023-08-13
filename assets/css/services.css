@@ -1,0 +1,14 @@
+.menu{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    /* width: 10%; */
+}
+.menu .right-menu ul li{
+    display: inline-block;
+    text-decoration-line: none;
+    margin: 2px 5px;
+}
+.menu .right-menu ul li a{
+    text-decoration: none;
+}
